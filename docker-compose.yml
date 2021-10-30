@@ -1,0 +1,40 @@
+version: '3'
+
+services:
+  iginius-redis:
+    image: redis
+    container_name: iginius-redis
+    command: redis-server
+    ports: 
+      - 6379:6379
+    
+  iginius-cassandra-n1: 
+    image: cassandra:latest
+    container_name: iginius-cassandra-n1
+    volumes:
+      - ./docker/n1:/var/lib/cassandra/data
+    ports:
+      - 9042:9042
+    healthcheck:
+      test: ["CMD", "cqlsh", "-e", "describe keyspaces" ]
+      interval: 5s
+      timeout: 5s
+      retries: 60
+    environment:
+      - CASSANDRA_CLUSTER_NAME=iginius_cluster
+      - CASSANDRA_ENDPOINT_SNITCH=GossipingPropertyFileSnitch
+      - CASSANDRA_DC=ig_dc
+      - CASSANDRA_NUM_TOKENS=128
+
+  iginius-api:
+    build: .
+    command: uvicorn main:app --host 0.0.0.0 --reload
+    container_name: iginius-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./:/iginius
+    # depends_on:
+    #   - iginius-redis
+    #   - iginius-cassandra-n1
+      

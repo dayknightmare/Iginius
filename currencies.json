@@ -1,0 +1,992 @@
+{
+    "currencies": [
+        {
+            "name": "AFEGANE AFEGANIST",
+            "code": "1"
+        },
+        {
+            "name": "ARIARY MADAGASCAR",
+            "code": "2331"
+        },
+        {
+            "name": "AUSTRAL",
+            "code": "4"
+        },
+        {
+            "name": "BALBOA/PANAMA",
+            "code": "6"
+        },
+        {
+            "name": "BATH/TAILANDIA",
+            "code": "5"
+        },
+        {
+            "name": "BIRR",
+            "code": "2"
+        },
+        {
+            "name": "BIRR/ETIOPIA",
+            "code": "3"
+        },
+        {
+            "name": "BOLIVAR SOBERANO VENEZUELANO",
+            "code": "2472"
+        },
+        {
+            "name": "BOLIVAR VENEZUELANO",
+            "code": "8"
+        },
+        {
+            "name": "BOLIVAR/VENZUELA",
+            "code": "7"
+        },
+        {
+            "name": "BOLIVIANO/BOLIVIA",
+            "code": "9"
+        },
+        {
+            "name": "BUA",
+            "code": "234"
+        },
+        {
+            "name": "CEDI GANA",
+            "code": "10"
+        },
+        {
+            "name": "COLON/COSTA RICA",
+            "code": "11"
+        },
+        {
+            "name": "COLON/EL SALVADOR",
+            "code": "12"
+        },
+        {
+            "name": "CORDOBA OURO",
+            "code": "14"
+        },
+        {
+            "name": "CORDOBA/NICARAGUA",
+            "code": "13"
+        },
+        {
+            "name": "COROA DINAMARQUESA",
+            "code": "15"
+        },
+        {
+            "name": "COROA ESLOVACA",
+            "code": "17"
+        },
+        {
+            "name": "COROA ESTONIA",
+            "code": "16"
+        },
+        {
+            "name": "COROA ISLND/ISLAN",
+            "code": "18"
+        },
+        {
+            "name": "COROA NORUEGUESA",
+            "code": "19"
+        },
+        {
+            "name": "COROA SUECA",
+            "code": "20"
+        },
+        {
+            "name": "COROA TCHECA",
+            "code": "21"
+        },
+        {
+            "name": "CRUZADO",
+            "code": "23"
+        },
+        {
+            "name": "CRUZADO NOVO",
+            "code": "22"
+        },
+        {
+            "name": "CRUZEIRO",
+            "code": "24"
+        },
+        {
+            "name": "CRUZEIRO",
+            "code": "25"
+        },
+        {
+            "name": "CRUZEIRO REAL",
+            "code": "26"
+        },
+        {
+            "name": "CUPON GEORGIANO",
+            "code": "27"
+        },
+        {
+            "name": "DALASI/GAMBIA",
+            "code": "28"
+        },
+        {
+            "name": "DINAR ARGELINO",
+            "code": "29"
+        },
+        {
+            "name": "DINAR IEMENITA",
+            "code": "32"
+        },
+        {
+            "name": "DINAR IUGOSLAVO",
+            "code": "34"
+        },
+        {
+            "name": "DINAR SERVIO SERVIA",
+            "code": "38"
+        },
+        {
+            "name": "DINAR/BAHREIN",
+            "code": "31"
+        },
+        {
+            "name": "DINAR/IRAQUE",
+            "code": "33"
+        },
+        {
+            "name": "DINAR/JORDANIA",
+            "code": "35"
+        },
+        {
+            "name": "DINAR/KWAIT",
+            "code": "30"
+        },
+        {
+            "name": "DINAR/LIBIA",
+            "code": "36"
+        },
+        {
+            "name": "DINAR/MACEDONIA",
+            "code": "37"
+        },
+        {
+            "name": "DINAR/TUNISIA",
+            "code": "40"
+        },
+        {
+            "name": "DIREITO ESPECIAL",
+            "code": "41"
+        },
+        {
+            "name": "DIRHAM/EMIR.ARABE",
+            "code": "43"
+        },
+        {
+            "name": "DIRHAM/MARROCOS",
+            "code": "42"
+        },
+        {
+            "name": "DOBRA S TOME PRIN",
+            "code": "44"
+        },
+        {
+            "name": "DOBRA S\u00c3O TOM\u00c9 E PR\u00cdNCIPE",
+            "code": "2492"
+        },
+        {
+            "name": "DOLAR AUSTRALIANO",
+            "code": "45"
+        },
+        {
+            "name": "DOLAR BRUNEI",
+            "code": "53"
+        },
+        {
+            "name": "DOLAR CANADENSE",
+            "code": "48"
+        },
+        {
+            "name": "DOLAR CARIBE ORIENTAL",
+            "code": "59"
+        },
+        {
+            "name": "DOLAR CAYMAN",
+            "code": "54"
+        },
+        {
+            "name": "DOLAR CINGAPURA",
+            "code": "55"
+        },
+        {
+            "name": "DOLAR DA GUIANA",
+            "code": "49"
+        },
+        {
+            "name": "DOLAR DA NAMIBIA",
+            "code": "50"
+        },
+        {
+            "name": "DOLAR DAS ILHAS SALOMAO",
+            "code": "67"
+        },
+        {
+            "name": "DOLAR DO SURINAME",
+            "code": "68"
+        },
+        {
+            "name": "DOLAR DOS EUA",
+            "code": "61"
+        },
+        {
+            "name": "DOLAR FIJI",
+            "code": "56"
+        },
+        {
+            "name": "DOLAR HONG KONG",
+            "code": "57"
+        },
+        {
+            "name": "DOLAR LIBERIA",
+            "code": "64"
+        },
+        {
+            "name": "DOLAR MALAIO",
+            "code": "65"
+        },
+        {
+            "name": "DOLAR NOVA ZELANDIA",
+            "code": "66"
+        },
+        {
+            "name": "DOLAR ZIMBABUE",
+            "code": "60"
+        },
+        {
+            "name": "DOLAR-BULGARIA",
+            "code": "224"
+        },
+        {
+            "name": "DOLAR-EX-ALEM.ORI",
+            "code": "223"
+        },
+        {
+            "name": "DOLAR-GRECIA",
+            "code": "225"
+        },
+        {
+            "name": "DOLAR-HUNGRIA",
+            "code": "226"
+        },
+        {
+            "name": "DOLAR-ISRAEL",
+            "code": "227"
+        },
+        {
+            "name": "DOLAR-IUGOSLAVIA",
+            "code": "228"
+        },
+        {
+            "name": "DOLAR-POLONIA",
+            "code": "229"
+        },
+        {
+            "name": "DOLAR-ROMENIA",
+            "code": "231"
+        },
+        {
+            "name": "DOLAR/BAHAMAS",
+            "code": "46"
+        },
+        {
+            "name": "DOLAR/BARBADOS",
+            "code": "51"
+        },
+        {
+            "name": "DOLAR/BELIZE",
+            "code": "52"
+        },
+        {
+            "name": "DOLAR/BERMUDAS",
+            "code": "47"
+        },
+        {
+            "name": "DOLAR/ETIOPIA",
+            "code": "62"
+        },
+        {
+            "name": "DOLAR/JAMAICA",
+            "code": "63"
+        },
+        {
+            "name": "DOLAR/SURINAME",
+            "code": "78"
+        },
+        {
+            "name": "DOLAR/TRIN. TOBAG",
+            "code": "58"
+        },
+        {
+            "name": "DONGUE/VIETNAN",
+            "code": "69"
+        },
+        {
+            "name": "DRACMA/GRECIA",
+            "code": "70"
+        },
+        {
+            "name": "DRAM ARMENIA REP",
+            "code": "71"
+        },
+        {
+            "name": "ESCUDO CABO VERDE",
+            "code": "72"
+        },
+        {
+            "name": "ESCUDO PORTUGUES",
+            "code": "73"
+        },
+        {
+            "name": "ESCUDO TIMOR LESTE",
+            "code": "74"
+        },
+        {
+            "name": "EURO",
+            "code": "222"
+        },
+        {
+            "name": "FLORIM HOLANDES",
+            "code": "79"
+        },
+        {
+            "name": "FLORIM/ARUBA",
+            "code": "76"
+        },
+        {
+            "name": "FLORIM/SURINAME",
+            "code": "77"
+        },
+        {
+            "name": "FORINT/HUNGRIA",
+            "code": "80"
+        },
+        {
+            "name": "FRANCO BELGA FINA",
+            "code": "82"
+        },
+        {
+            "name": "FRANCO BELGA/BELG",
+            "code": "81"
+        },
+        {
+            "name": "FRANCO CFA BCEAO",
+            "code": "87"
+        },
+        {
+            "name": "FRANCO CFA BEAC",
+            "code": "86"
+        },
+        {
+            "name": "FRANCO CFP",
+            "code": "88"
+        },
+        {
+            "name": "FRANCO COMORES",
+            "code": "85"
+        },
+        {
+            "name": "FRANCO CONGOLES",
+            "code": "83"
+        },
+        {
+            "name": "FRANCO FRANCES",
+            "code": "91"
+        },
+        {
+            "name": "FRANCO LUXEMBURGO",
+            "code": "93"
+        },
+        {
+            "name": "FRANCO MALGAXE MADAGA",
+            "code": "94"
+        },
+        {
+            "name": "FRANCO MALI",
+            "code": "95"
+        },
+        {
+            "name": "FRANCO SUICO",
+            "code": "97"
+        },
+        {
+            "name": "FRANCO/BURUNDI",
+            "code": "84"
+        },
+        {
+            "name": "FRANCO/BURUNDI",
+            "code": "89"
+        },
+        {
+            "name": "FRANCO/DJIBUTI",
+            "code": "90"
+        },
+        {
+            "name": "FRANCO/GUINE",
+            "code": "92"
+        },
+        {
+            "name": "FRANCO/RUANDA",
+            "code": "96"
+        },
+        {
+            "name": "FUA",
+            "code": "235"
+        },
+        {
+            "name": "GOURDE HAITI",
+            "code": "98"
+        },
+        {
+            "name": "GUARANI/PARAGUAI",
+            "code": "99"
+        },
+        {
+            "name": "GUILDER ANTILHAS HOLANDESAS",
+            "code": "75"
+        },
+        {
+            "name": "HRYVNIA UCRANIA",
+            "code": "100"
+        },
+        {
+            "name": "IENE",
+            "code": "101"
+        },
+        {
+            "name": "INTI PERUANO",
+            "code": "102"
+        },
+        {
+            "name": "KARBOVANETS",
+            "code": "172"
+        },
+        {
+            "name": "KINA DE PAPUA NOVA GUINE",
+            "code": "173"
+        },
+        {
+            "name": "KUNA DA CROACIA",
+            "code": "174"
+        },
+        {
+            "name": "KWANZA/ANGOLA",
+            "code": "139"
+        },
+        {
+            "name": "LARI GEORGIA",
+            "code": "103"
+        },
+        {
+            "name": "LAT LETONIA REP",
+            "code": "104"
+        },
+        {
+            "name": "LEK ALBANIA REP",
+            "code": "105"
+        },
+        {
+            "name": "LEMPIRA/HONDURAS",
+            "code": "106"
+        },
+        {
+            "name": "LEONE/SERRA LEOA",
+            "code": "107"
+        },
+        {
+            "name": "LEU/MOLDAVIA, REP",
+            "code": "108"
+        },
+        {
+            "name": "LEU/ROMENIA",
+            "code": "109"
+        },
+        {
+            "name": "LEV/BULGARIA, REP",
+            "code": "111"
+        },
+        {
+            "name": "LIBRA CIP/CHIPRE",
+            "code": "112"
+        },
+        {
+            "name": "LIBRA DE GIBRALTAR",
+            "code": "113"
+        },
+        {
+            "name": "LIBRA DE SANTA HELENA",
+            "code": "121"
+        },
+        {
+            "name": "LIBRA ESTERLINA",
+            "code": "115"
+        },
+        {
+            "name": "LIBRA ISRAELENSE",
+            "code": "118"
+        },
+        {
+            "name": "LIBRA SUDANESA",
+            "code": "123"
+        },
+        {
+            "name": "LIBRA SUL SUDANESA",
+            "code": "2372"
+        },
+        {
+            "name": "LIBRA/EGITO",
+            "code": "114"
+        },
+        {
+            "name": "LIBRA/FALKLAND",
+            "code": "116"
+        },
+        {
+            "name": "LIBRA/IRLANDA",
+            "code": "117"
+        },
+        {
+            "name": "LIBRA/LIBANO",
+            "code": "119"
+        },
+        {
+            "name": "LIBRA/SIRIA, REP",
+            "code": "122"
+        },
+        {
+            "name": "LILANGENI/SUAZIL",
+            "code": "124"
+        },
+        {
+            "name": "LIRA ITALIANA",
+            "code": "125"
+        },
+        {
+            "name": "LIRA TURCA",
+            "code": "142"
+        },
+        {
+            "name": "LIRA TURQUIA",
+            "code": "126"
+        },
+        {
+            "name": "LIRA/MALTA",
+            "code": "120"
+        },
+        {
+            "name": "LITA LITUANIA",
+            "code": "127"
+        },
+        {
+            "name": "LOTI/LESOTO",
+            "code": "128"
+        },
+        {
+            "name": "MANAT ARZEBAIJAO",
+            "code": "130"
+        },
+        {
+            "name": "MARCO",
+            "code": "129"
+        },
+        {
+            "name": "MARCO ALEMAO",
+            "code": "132"
+        },
+        {
+            "name": "MARCO CONV BOSNIA",
+            "code": "133"
+        },
+        {
+            "name": "MARCO FINLANDES",
+            "code": "134"
+        },
+        {
+            "name": "METICAL MOCAMBIQ",
+            "code": "135"
+        },
+        {
+            "name": "NAIRA NIGERIA",
+            "code": "138"
+        },
+        {
+            "name": "NAKFA DA ERITREIA",
+            "code": "137"
+        },
+        {
+            "name": "NGULTRUM/BUTAO",
+            "code": "149"
+        },
+        {
+            "name": "NOVA LIBRA SUDANESA",
+            "code": "39"
+        },
+        {
+            "name": "NOVA METICAL/MOCA",
+            "code": "136"
+        },
+        {
+            "name": "NOVO DINAR IUGOSLAVO",
+            "code": "140"
+        },
+        {
+            "name": "NOVO DOLAR/TAIWAN",
+            "code": "141"
+        },
+        {
+            "name": "NOVO LEU DA ROMENIA",
+            "code": "110"
+        },
+        {
+            "name": "NOVO MANAT TURCOMANO",
+            "code": "131"
+        },
+        {
+            "name": "NOVO PESO URUGUAI",
+            "code": "145"
+        },
+        {
+            "name": "NOVO PESO URUGUAI",
+            "code": "146"
+        },
+        {
+            "name": "NOVO PESO/MEXICO",
+            "code": "143"
+        },
+        {
+            "name": "NOVO PESO/MEXICO",
+            "code": "144"
+        },
+        {
+            "name": "NOVO SOL/PERU",
+            "code": "147"
+        },
+        {
+            "name": "NOVO ZAIRE",
+            "code": "148"
+        },
+        {
+            "name": "NOVO ZAIRE",
+            "code": "220"
+        },
+        {
+            "name": "NOVO ZAIRE  ZAIRE",
+            "code": "219"
+        },
+        {
+            "name": "OURO",
+            "code": "236"
+        },
+        {
+            "name": "PAANGA/TONGA",
+            "code": "151"
+        },
+        {
+            "name": "PALADIO",
+            "code": "232"
+        },
+        {
+            "name": "PATACA/MACAU",
+            "code": "152"
+        },
+        {
+            "name": "PESETA ESPANHOLA",
+            "code": "154"
+        },
+        {
+            "name": "PESETA/ANDORA",
+            "code": "153"
+        },
+        {
+            "name": "PESO ARGENTINO",
+            "code": "155"
+        },
+        {
+            "name": "PESO ARGENTINO",
+            "code": "156"
+        },
+        {
+            "name": "PESO BOLIVIANO",
+            "code": "157"
+        },
+        {
+            "name": "PESO CHILE",
+            "code": "158"
+        },
+        {
+            "name": "PESO GUINE BISSAU",
+            "code": "163"
+        },
+        {
+            "name": "PESO MEXICANO",
+            "code": "164"
+        },
+        {
+            "name": "PESO/COLOMBIA",
+            "code": "159"
+        },
+        {
+            "name": "PESO/CUBA",
+            "code": "160"
+        },
+        {
+            "name": "PESO/FILIPINAS",
+            "code": "162"
+        },
+        {
+            "name": "PESO/MEXICO",
+            "code": "165"
+        },
+        {
+            "name": "PESO/REP. DOMINIC",
+            "code": "161"
+        },
+        {
+            "name": "PESO/URUGUAIO",
+            "code": "166"
+        },
+        {
+            "name": "PLATINA",
+            "code": "233"
+        },
+        {
+            "name": "PRATA",
+            "code": "230"
+        },
+        {
+            "name": "PULA/BOTSWANA",
+            "code": "167"
+        },
+        {
+            "name": "QUACHA ZAMBIA",
+            "code": "169"
+        },
+        {
+            "name": "QUACHA ZAMBIA",
+            "code": "2352"
+        },
+        {
+            "name": "QUACHA/MALAVI",
+            "code": "168"
+        },
+        {
+            "name": "QUETZAL/GUATEMALA",
+            "code": "170"
+        },
+        {
+            "name": "QUIATE/BIRMANIA",
+            "code": "171"
+        },
+        {
+            "name": "QUIPE/LAOS, REP",
+            "code": "175"
+        },
+        {
+            "name": "RANDE/AFRICA SUL",
+            "code": "176"
+        },
+        {
+            "name": "REAL BRASIL",
+            "code": "177"
+        },
+        {
+            "name": "RENMINBI CHINES",
+            "code": "178"
+        },
+        {
+            "name": "RENMINBI HONG KONG",
+            "code": "2332"
+        },
+        {
+            "name": "RIAL/ARAB SAUDITA",
+            "code": "183"
+        },
+        {
+            "name": "RIAL/CATAR",
+            "code": "179"
+        },
+        {
+            "name": "RIAL/IEMEN",
+            "code": "181"
+        },
+        {
+            "name": "RIAL/IRAN, REP",
+            "code": "182"
+        },
+        {
+            "name": "RIAL/OMA",
+            "code": "180"
+        },
+        {
+            "name": "RIEL/CAMBOJA",
+            "code": "184"
+        },
+        {
+            "name": "RINGGIT/MALASIA",
+            "code": "185"
+        },
+        {
+            "name": "RUBLO BELARUS",
+            "code": "186"
+        },
+        {
+            "name": "RUBLO BELARUS",
+            "code": "2432"
+        },
+        {
+            "name": "RUBLO/RUSSIA",
+            "code": "187"
+        },
+        {
+            "name": "RUFIA/MALDIVAS",
+            "code": "195"
+        },
+        {
+            "name": "RUPIA SEYCHELES",
+            "code": "191"
+        },
+        {
+            "name": "RUPIA/INDIA",
+            "code": "193"
+        },
+        {
+            "name": "RUPIA/INDONESIA",
+            "code": "194"
+        },
+        {
+            "name": "RUPIA/MAURICIO",
+            "code": "189"
+        },
+        {
+            "name": "RUPIA/NEPAL",
+            "code": "190"
+        },
+        {
+            "name": "RUPIA/PAQUISTAO",
+            "code": "196"
+        },
+        {
+            "name": "RUPIA/SRI LANKA",
+            "code": "192"
+        },
+        {
+            "name": "SHEKEL/ISRAEL",
+            "code": "197"
+        },
+        {
+            "name": "SOL PERUANO",
+            "code": "198"
+        },
+        {
+            "name": "SOM DO QUIRGUISTAO",
+            "code": "199"
+        },
+        {
+            "name": "SOM UZBEQUISTAO",
+            "code": "200"
+        },
+        {
+            "name": "SOMONI TADJIQUISTAO",
+            "code": "188"
+        },
+        {
+            "name": "SUCRE EQUADOR",
+            "code": "201"
+        },
+        {
+            "name": "TACA/BANGLADESH",
+            "code": "202"
+        },
+        {
+            "name": "TALA",
+            "code": "203"
+        },
+        {
+            "name": "TALA DA SAMOA OCIDENTAL",
+            "code": "204"
+        },
+        {
+            "name": "TALA SAMOA",
+            "code": "2412"
+        },
+        {
+            "name": "TENGE CAZAQUISTAO",
+            "code": "205"
+        },
+        {
+            "name": "TOLAR/ESLOVENIA",
+            "code": "206"
+        },
+        {
+            "name": "TUGRIK/MONGOLIA",
+            "code": "207"
+        },
+        {
+            "name": "UGUIA MAURITANIA",
+            "code": "150"
+        },
+        {
+            "name": "UGUIA MAURITANIA",
+            "code": "2452"
+        },
+        {
+            "name": "UNID FOMENTO CHIL",
+            "code": "208"
+        },
+        {
+            "name": "UNID.MONET.EUROP.",
+            "code": "209"
+        },
+        {
+            "name": "UNIDADE DE FOMENTO DO CHILE",
+            "code": "2392"
+        },
+        {
+            "name": "UNIDADE DE VALOR REAL",
+            "code": "2512"
+        },
+        {
+            "name": "VATU VANUATU",
+            "code": "210"
+        },
+        {
+            "name": "WON COREIA SUL",
+            "code": "212"
+        },
+        {
+            "name": "WON/COREIA NORTE",
+            "code": "211"
+        },
+        {
+            "name": "XELIM AUSTRIACO",
+            "code": "213"
+        },
+        {
+            "name": "XELIM DA TANZANIA",
+            "code": "214"
+        },
+        {
+            "name": "XELIM DA TANZANIA",
+            "code": "215"
+        },
+        {
+            "name": "XELIM/QUENIA",
+            "code": "216"
+        },
+        {
+            "name": "XELIM/SOMALIA",
+            "code": "218"
+        },
+        {
+            "name": "XELIM/UGANDA",
+            "code": "217"
+        },
+        {
+            "name": "ZLOTY/POLONIA",
+            "code": "221"
+        }
+    ]
+}
