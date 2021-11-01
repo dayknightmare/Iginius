@@ -20,3 +20,13 @@ def processing_currency_data(data: list) -> list:
         })
 
     return data_processed
+
+
+def validate_and_tranform_date_str(date: str) -> str:
+    try:
+        d = datetime.datetime.strptime(date, "%Y-%m-%d")
+
+    except ValueError:
+        return ""
+
+    return d.strftime("%d/%m/%Y")

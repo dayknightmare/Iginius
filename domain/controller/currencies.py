@@ -1,19 +1,43 @@
-from domain.use_cases.currencies import get_api_currency
-from fastapi import APIRouter
+from domain.use_cases.currencies import get_api_currency, process_and_store_currencies
+from fastapi import APIRouter, Response, status
+from helpers.currencies import validate_and_tranform_date_str
 
 
 router_currencies = APIRouter()
 
 
-@router_currencies.get('/')
-async def get_currency():
-    data = get_api_currency()
+@router_currencies.get('/{id_currency}/{start_date}/{final_date}', status_code=200, responses={
+    200: {"description": "Ok"},
+    400: {"description": "Wrong or missing values"},
+})
+async def get_currency(
+    id_currency: int,
+    start_date: str,
+    final_date: str,
+    response: Response
+):
+    start_date = validate_and_tranform_date_str(start_date)
+    final_date = validate_and_tranform_date_str(final_date)
 
-    if len(data) > 0 and data[0] == -1:
+    if start_date == "" or final_date == "":
+        response.status_code = status.HTTP_400_BAD_REQUEST
+        
         return {
             'success': False,
             'msg': 'Wrong values'
         }
+ 
+    data = await get_api_currency(id_currency, start_date, final_date)
+
+    if len(data) > 0 and data[0] == -1:
+        response.status_code = status.HTTP_400_BAD_REQUEST
+        
+        return {
+            'success': False,
+            'msg': 'Wrong values'
+        }
+
+    await process_and_store_currencies(data)
 
     return {
         'success': True,

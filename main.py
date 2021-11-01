@@ -7,7 +7,11 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-connection.setup(['iginius-cassandra-n1'], "iginius", protocol_version=3)
+connection.setup(
+    ['iginius-cassandra-n1'], 
+    "iginius", 
+    protocol_version=3
+)
 
 sync()
 

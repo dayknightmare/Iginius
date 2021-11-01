@@ -4,7 +4,6 @@ import json
 with open("./currencies_raw.txt", 'r') as f:
     lines = f.readlines()
 
-
 currencies = {
     "currencies": []
 }
