@@ -1,6 +1,6 @@
-from domain.use_cases.currencies import get_api_currency, process_and_store_currencies
-from fastapi import APIRouter, Response, status
+from domain.use_cases.currencies import get_api_currency, process_and_store_currencies, get_json_currencies
 from helpers.currencies import validate_and_tranform_date_str
+from fastapi import APIRouter, Response, status
 
 
 router_currencies = APIRouter()
@@ -42,4 +42,14 @@ async def get_currency(
     return {
         'success': True,
         'currency': data
+    }
+
+
+@router_currencies.get("/currencies", status_code=200, responses={
+    200: {"description": "Ok"},
+})
+async def get_all_currencies():
+    return {
+        'success': True,
+        'currencies': get_json_currencies()
     }

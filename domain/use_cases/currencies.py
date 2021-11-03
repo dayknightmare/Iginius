@@ -2,6 +2,7 @@ from domain.repository.currencies import save_currency_data, get_currencies_by_d
 from helpers.currencies import processing_currency_data
 from urllib3 import PoolManager
 from typing import Union
+import json
 
 
 async def get_api_currency(
@@ -48,3 +49,10 @@ async def process_and_store_currencies(currency_values: list):
                 parity_buy=i['parity_buy'],
                 parity_sell=i['parity_sell']
             )
+
+
+def get_json_currencies() -> list:
+    with open("currencies.json", 'r') as f:
+        js = json.loads(f.read())
+
+    return js['currencies']

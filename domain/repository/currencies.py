@@ -32,5 +32,4 @@ def get_currencies_by_date_range(date_end: datetime.date, date_start: datetime.d
     for i in q:
         dates.append(str(i.date))
 
-    print(dates)
     return dates
