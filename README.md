@@ -1,5 +1,11 @@
 # Iginius API 
 
+<p align="center">
+    <img src="https://img.shields.io/badge/type-API-success?style=flat-square" alt="Project Type" />
+    <img src="https://img.shields.io/badge/language-Python-blue?style=flat-square" alt="Project Language" />
+    <img src="https://img.shields.io/badge/platform-WEB-red?style=flat-square" alt="Project Platform" />
+</p>
+
 ## About
 
 This is an API that searches data from the Central Bank of Brazil to make the Real Quotation for any other currency in a certain period of time.
