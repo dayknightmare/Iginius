@@ -5,6 +5,11 @@ services:
     image: redis
     container_name: iginius-redis
     command: redis-server
+    healthcheck:
+      test: ["CMD", "redis-cli","ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 60
     ports: 
       - 6379:6379
     
@@ -34,7 +39,10 @@ services:
       - "8000:8000"
     volumes:
       - ./:/iginius
-    # depends_on:
-    #   - iginius-redis
-    #   - iginius-cassandra-n1
+    depends_on:
+      iginius-cassandra-n1:
+        condition: service_healthy
+      iginius-redis:
+        condition: service_healthy
+
       

@@ -7,9 +7,10 @@ import uuid
 class Currency(Model):
     id = columns.UUID(primary_key=True, default=uuid.uuid4)
     date_created = columns.DateTime(default=datetime.datetime.now)
-    date = columns.Date(index=True)
+    date_search = columns.Date(primary_key=True)
     name = columns.Text(index=True)
-    currency_id = columns.Integer()
+    currency_id = columns.Integer(index=True)
+    currency_code = columns.Integer(index=True)
     type = columns.Text(max_length=3)
     tax_buy = columns.Float()
     tax_sell = columns.Float()

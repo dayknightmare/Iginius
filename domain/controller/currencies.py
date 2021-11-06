@@ -1,4 +1,4 @@
-from domain.use_cases.currencies import get_api_currency, process_and_store_currencies, get_json_currencies
+from domain.use_cases.currencies import process_and_store_currencies, get_json_currencies, get_data_currency
 from helpers.currencies import validate_and_tranform_date_str
 from fastapi import APIRouter, Response, status
 
@@ -27,7 +27,7 @@ async def get_currency(
             'msg': 'Wrong values'
         }
  
-    data = await get_api_currency(id_currency, start_date, final_date)
+    data = await get_data_currency(id_currency, start_date, final_date)
 
     if len(data) > 0 and data[0] == -1:
         response.status_code = status.HTTP_400_BAD_REQUEST
